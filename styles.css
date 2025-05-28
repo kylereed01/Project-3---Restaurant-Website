@@ -1,0 +1,69 @@
+/* General body styling */
+body {
+    background-image: url("burgerbackground.jpg");
+    background-size: 100%, 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-image: url("headerbackground.jpg");
+    background-size: 100%, 100%;
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu container styling */
+.menu {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+        "BLED" 0, 
+        "SCAN" 0, 
+        "XELA" 0, 
+        "YELA" 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Individual menu item styling */
+.menu-item {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 
+        "BLED" 0, 
+        "SCAN" 0, 
+        "XELA" 0, 
+        "YELA" 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Menu item image styling */
+.menu-item img {
+    width: 250px;
+    height: 250px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
